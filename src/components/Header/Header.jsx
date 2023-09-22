@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
 
                 <div className="relative" >
-                    <div className={`flex flex-col md:flex-row absolute md:static duration-1000 bg-green-700 px-4 py-3 text-white ${open ? 'top-5 left-3 z-10' : 'left-3  -top-40'}`}>
+                    <div className={`flex flex-col md:flex-row absolute md:static duration-1000 bg-green-700 px-4 py-3 text-white ${open ? 'top-5  -right-12 z-10' : ' -right-12 -top-40'}`}>
 
                         <NavLink className="mr-4 text-xl font-semibold" to="/">Home</NavLink>
 
@@ -30,7 +30,7 @@ const Header = () => {
 
                         <NavLink className="mr-4 text-xl font-semibold" to="/about">About</NavLink>
 
-                        <NavLink className="mr-4 text-xl font-semibold" to="/contact">Contact</NavLink>
+                        <NavLink className="mr-4 text-xl font-semibold" to="/signin">Sign In</NavLink>
 
                     </div>
                 </div>
